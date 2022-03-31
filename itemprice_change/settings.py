@@ -12,9 +12,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-jourp&ofgx#(2_6-pegg7q_#iu1a*pkf76tw(ppqi5u0#f23-6'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
-
-ALLOWED_HOSTS = ['*']
+DEBUG = True
+# * Allows all active domains to run this Project
+ALLOWED_HOSTS = ['https://zodiacproton-arnoldpolo-8000.codio-box.uk/']
 
 
 # Application definition
